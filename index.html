@@ -1,0 +1,1288 @@
+<!doctype html>
+<html lang="bn" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaporghor (কাপড়ঘর) - Premium Women's Clothing</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1A1A1A",
+              accent: "#D4AF37",
+              accentDark: "#B89728",
+              bgLight: "#FAF9F6",
+              cardBg: "#F3EEEA",
+              darkText: "#2B2B2B",
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', "serif"],
+              sans: ['"Plus Jakarta Sans"', "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        background-color: #faf9f6;
+        color: #2b2b2b;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      .font-serif {
+        font-family: "Playfair Display", serif;
+      }
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f3eeea;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #d4af37;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-bgLight text-darkText antialiased selection:bg-accent selection:text-white"
+  >
+    <!-- 1. Top Announcement Bar -->
+    <div
+      class="bg-primary text-accent text-xs sm:text-sm font-medium py-2.5 px-4 text-center tracking-wide shadow-sm overflow-hidden whitespace-nowrap"
+    >
+      <div class="inline-block animate-pulse">
+        <i class="fa-solid fa-truck-fast mr-2"></i> সারাদেশে ক্যাশ অন ডেলিভারি
+        সুবিধা! ডেলিভারিম্যানের সামনে পার্সেল চেক করার সুযোগ।
+        <i class="fa-solid fa-shield-halved ml-2"></i>
+      </div>
+    </div>
+
+    <!-- 2. Header Section -->
+    <header
+      class="sticky top-0 z-50 bg-[#FAF9F6]/95 backdrop-blur-md border-b border-stone-200 shadow-sm transition-all"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between"
+      >
+        <!-- Left: Logo & Brand Name -->
+        <a href="#" class="flex items-center gap-3 group">
+          <div
+            class="w-11 h-11 rounded-full bg-primary text-accent flex items-center justify-center font-serif font-bold text-xl shadow-md group-hover:scale-105 transition-transform"
+          >
+            KG
+          </div>
+          <div>
+            <span
+              class="font-serif text-2xl font-bold tracking-tight text-primary block"
+              >Kaporghor</span
+            >
+            <span
+              class="text-xs uppercase tracking-widest text-stone-500 font-medium block"
+              >কাপড়ঘর • Women's Wear</span
+            >
+          </div>
+        </a>
+
+        <!-- Right: Action Buttons -->
+        <div class="flex items-center gap-3">
+          <button
+            onclick="openSavedOrdersModal()"
+            class="relative p-2.5 rounded-full bg-white border border-stone-300 text-stone-700 hover:text-accent hover:border-accent transition shadow-sm focus:outline-none"
+            title="Saved Orders"
+          >
+            <i class="fa-solid fa-bag-shopping text-lg"></i>
+            <span
+              id="savedOrdersBadge"
+              class="absolute -top-1 -right-1 bg-accent text-primary text-[10px] font-bold w-5 h-5 rounded-full flex items-center justify-center shadow-md hidden"
+              >0</span
+            >
+          </button>
+          <a
+            href="#orderSection"
+            class="bg-primary hover:bg-stone-800 text-accent font-semibold px-5 py-2.5 rounded-full text-sm shadow-md hover:shadow-lg transition flex items-center gap-2 border border-accent/30"
+          >
+            <span>Order Now</span>
+            <i class="fa-solid fa-arrow-right text-xs"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main>
+      <!-- 3. Hero Section -->
+      <section class="py-8 sm:py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <!-- Mobile: Stacked | Desktop: Two Column Grid -->
+        <div
+          class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center"
+        >
+          <!-- Product Showcase Gallery (Mobile: Top, Desktop: Left Col) -->
+          <div class="lg:col-span-6 order-1 lg:order-1">
+            <div
+              class="relative bg-cardBg rounded-3xl p-4 sm:p-6 shadow-xl border border-stone-200 overflow-hidden group"
+            >
+              <!-- Badge -->
+              <div
+                class="absolute top-6 left-6 z-10 bg-accent text-primary font-bold text-xs uppercase tracking-wider px-3 py-1.5 rounded-full shadow"
+              >
+                🔥 Hot Selling Drop
+              </div>
+
+              <!-- Carousel Frame -->
+              <div
+                class="relative aspect-square w-full rounded-2xl overflow-hidden bg-stone-100 flex items-center justify-center"
+              >
+                <img
+                  id="hero-carousel-img"
+                  src=""
+                  alt="Kaporghor Product Showcase"
+                  class="w-full h-full object-contain transition-opacity duration-500 fade-img"
+                  onerror="this.src='logo.jpg'; this.onerror=null;"
+                  loading="eager"
+                />
+
+                <!-- Carousel Navigation Buttons -->
+                <button
+                  onclick="prevHeroSlide()"
+                  class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/80 hover:bg-white text-primary flex items-center justify-center shadow-md transition hover:scale-110 focus:outline-none"
+                >
+                  <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button
+                  onclick="nextHeroSlide()"
+                  class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/80 hover:bg-white text-primary flex items-center justify-center shadow-md transition hover:scale-110 focus:outline-none"
+                >
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+
+                <!-- Carousel Indicators -->
+                <div
+                  id="hero-dots"
+                  class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-1.5 px-3 py-1.5 bg-black/30 backdrop-blur-sm rounded-full"
+                >
+                  <!-- JS dynamic dots -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Content (Mobile: Bottom, Desktop: Right Col) -->
+          <div
+            class="lg:col-span-6 order-2 lg:order-2 space-y-6 text-center lg:text-left"
+          >
+            <div
+              class="inline-block bg-stone-200/70 text-stone-800 text-xs font-semibold px-3.5 py-1.5 rounded-full tracking-wide"
+            >
+              ✨ Wear your confidence proudly
+            </div>
+            <h1
+              class="font-serif text-3xl sm:text-5xl font-extrabold text-primary leading-tight"
+            >
+              Pakistani Inspired Premium Lawn Three-Piece
+            </h1>
+            <p class="text-stone-600 text-base sm:text-lg leading-relaxed">
+              মার্জিত ডিজাইন, সর্বোচ্চ কমফোর্ট এবং প্রিমিয়াম কোয়ালিটি ফেব্রিক
+              দিয়ে তৈরি আমাদের এক্সক্লুসিভ কালেকশন। প্রতিটি অনুষ্ঠানে নিজেকে
+              ফুটিয়ে তুলুন আস্থার সাথে।
+            </p>
+
+            <!-- Price Block -->
+            <div
+              class="flex items-center justify-center lg:justify-start gap-4 py-2"
+            >
+              <div
+                class="text-3xl sm:text-4xl font-extrabold text-primary font-serif"
+              >
+                ৳ ৮৫০
+              </div>
+              <div class="text-stone-400 line-through text-lg font-semibold">
+                ৳ ১,২০০
+              </div>
+              <span
+                class="bg-emerald-100 text-emerald-800 text-xs font-bold px-2.5 py-1 rounded-md"
+                >Save ৳ 350</span
+              >
+            </div>
+
+            <!-- CTA Button -->
+            <div class="pt-2">
+              <a
+                href="#orderSection"
+                class="inline-flex items-center justify-center gap-3 w-full sm:w-auto bg-accent hover:bg-accentDark text-primary font-bold text-lg px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>অর্ডার করতে ক্লিক করুন</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Key Features & Quality Highlights -->
+      <section class="py-12 bg-white border-y border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-2xl mx-auto mb-10">
+            <h2
+              class="font-serif text-2xl sm:text-3xl font-bold text-primary mb-3"
+            >
+              কেন আমাদের প্রোডাক্ট বেছে নেবেন?
+            </h2>
+            <p class="text-stone-600 text-sm sm:text-base">
+              কাপড়ঘরের প্রতিটি পোশাকে রয়েছে নিখুঁত কারুকার্য ও আস্থার নিশ্চয়তা।
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Feature 1 -->
+            <div
+              class="bg-bgLight p-6 rounded-2xl border border-stone-200 text-center hover:shadow-md transition"
+            >
+              <div
+                class="w-14 h-14 mx-auto mb-4 rounded-full bg-accent/20 text-accentDark flex items-center justify-center text-2xl"
+              >
+                <i class="fa-solid fa-shirt"></i>
+              </div>
+              <h3 class="font-serif font-bold text-lg text-primary mb-2">
+                Premium Fabric
+              </h3>
+              <p class="text-stone-600 text-sm">
+                উচ্চমানের সফট লন ও কটন ফেব্রিক যা গরমেও দেয় আরামদায়ক অনুভূতি।
+              </p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div
+              class="bg-bgLight p-6 rounded-2xl border border-stone-200 text-center hover:shadow-md transition"
+            >
+              <div
+                class="w-14 h-14 mx-auto mb-4 rounded-full bg-accent/20 text-accentDark flex items-center justify-center text-2xl"
+              >
+                <i class="fa-solid fa-truck-fast"></i>
+              </div>
+              <h3 class="font-serif font-bold text-lg text-primary mb-2">
+                Cash on Delivery
+              </h3>
+              <p class="text-stone-600 text-sm">
+                সারাদেশে ক্যাশ অন ডেলিভারি সুবিধা, পণ্য হাতে পেয়ে মূল্য পরিশোধ
+                করুন।
+              </p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div
+              class="bg-bgLight p-6 rounded-2xl border border-stone-200 text-center hover:shadow-md transition"
+            >
+              <div
+                class="w-14 h-14 mx-auto mb-4 rounded-full bg-accent/20 text-accentDark flex items-center justify-center text-2xl"
+              >
+                <i class="fa-solid fa-box-open"></i>
+              </div>
+              <h3 class="font-serif font-bold text-lg text-primary mb-2">
+                Parcel Checking
+              </h3>
+              <p class="text-stone-600 text-sm">
+                ডেলিভারিম্যানের সামনে পার্সেল চেক করে দেখে নেওয়ার সুযোগ রয়েছে।
+              </p>
+            </div>
+
+            <!-- Feature 4 -->
+            <div
+              class="bg-bgLight p-6 rounded-2xl border border-stone-200 text-center hover:shadow-md transition"
+            >
+              <div
+                class="w-14 h-14 mx-auto mb-4 rounded-full bg-accent/20 text-accentDark flex items-center justify-center text-2xl"
+              >
+                <i class="fa-solid fa-tag"></i>
+              </div>
+              <h3 class="font-serif font-bold text-lg text-primary mb-2">
+                Best Price (৳ 850)
+              </h3>
+              <p class="text-stone-600 text-sm">
+                বাজেটের মধ্যে সেরা প্রিমিয়াম লুক ও আকর্ষণীয় ডিসকাউন্ট অফার।
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Size Chart & Guide Section -->
+      <section class="py-14 bg-bgLight">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center mb-10">
+            <h2
+              class="font-serif text-2xl sm:text-3xl font-bold text-primary mb-2"
+            >
+              সাইজ গাইডলাইন (Size Chart)
+            </h2>
+            <p class="text-stone-600 text-sm sm:text-base">
+              আপনার সঠিক মাপ বেছে নিতে নিচের চার্টটি অনুসরণ করুন (ইঞ্চিতে)
+            </p>
+          </div>
+
+          <div
+            class="bg-white rounded-3xl shadow-sm border border-stone-200 overflow-hidden"
+          >
+            <div class="overflow-x-auto">
+              <table class="w-full text-left border-collapse">
+                <thead>
+                  <tr class="bg-primary text-accent text-sm sm:text-base">
+                    <th class="py-4 px-6 font-serif">Size</th>
+                    <th class="py-4 px-6 font-serif">Chest (বুক)</th>
+                    <th class="py-4 px-6 font-serif">Length (লম্বা)</th>
+                    <th class="py-4 px-6 font-serif">
+                      Salwar Length (সেলোয়ার)
+                    </th>
+                  </tr>
+                </thead>
+                <tbody
+                  class="divide-y divide-stone-200 text-stone-700 text-sm sm:text-base"
+                >
+                  <tr class="hover:bg-stone-50 transition">
+                    <td class="py-4 px-6 font-bold text-primary">M</td>
+                    <td class="py-4 px-6">38" - 40"</td>
+                    <td class="py-4 px-6">44"</td>
+                    <td class="py-4 px-6">38"</td>
+                  </tr>
+                  <tr class="hover:bg-stone-50 transition">
+                    <td class="py-4 px-6 font-bold text-primary">L</td>
+                    <td class="py-4 px-6">40" - 42"</td>
+                    <td class="py-4 px-6">45"</td>
+                    <td class="py-4 px-6">39"</td>
+                  </tr>
+                  <tr class="hover:bg-stone-50 transition">
+                    <td class="py-4 px-6 font-bold text-primary">XL</td>
+                    <td class="py-4 px-6">42" - 44"</td>
+                    <td class="py-4 px-6">46"</td>
+                    <td class="py-4 px-6">40"</td>
+                  </tr>
+                  <tr class="hover:bg-stone-50 transition">
+                    <td class="py-4 px-6 font-bold text-primary">XXL</td>
+                    <td class="py-4 px-6">44" - 46"</td>
+                    <td class="py-4 px-6">47"</td>
+                    <td class="py-4 px-6">41"</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Interactive Multi-Select Checkout Form (Updated to match Fashion Garden/ZOA) -->
+      <section
+        id="orderSection"
+        class="py-16 bg-white border-t border-stone-200"
+      >
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center mb-10">
+            <span
+              class="text-accent font-bold text-xs uppercase tracking-widest bg-primary px-3.5 py-1.5 rounded-full inline-block mb-3"
+              >Secure Checkout</span
+            >
+            <h2
+              class="font-serif text-3xl sm:text-4xl font-bold text-primary mb-2"
+            >
+              আপনার অর্ডারটি কনফার্ম করুন
+            </h2>
+            <p class="text-stone-600 text-sm sm:text-base">
+              প্রয়োজনীয় পোশাক সিলেক্ট করুন, সাইজ ও আপনার ঠিকানা প্রদান করুন।
+            </p>
+          </div>
+
+          <form
+            id="orderForm"
+            onsubmit="submitOrder(event)"
+            class="bg-bgLight border border-stone-200 rounded-3xl p-6 sm:p-8 shadow-lg space-y-8"
+          >
+            <!-- STEP 1: Multi-Item Carousel Selector with Quantity -->
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <label class="block font-serif font-bold text-lg text-primary">
+                  ১. ডিজাইন/ভ্যারিয়েন্ট বাছাই করুন (মাল্টি-সিলেকশন):
+                </label>
+                <span
+                  class="text-xs text-accent bg-primary px-2.5 py-1 rounded-full font-semibold"
+                >
+                  একাধিক পোশাক একসাথে বেছে নিন
+                </span>
+              </div>
+
+              <!-- Horizontal Scroll Carousel for Thumbnails -->
+              <div class="relative group" id="variant-scroll-container">
+                <!-- Left Scroll Arrow Button -->
+                <button
+                  type="button"
+                  onclick="scrollVariantGallery(-1)"
+                  class="absolute -left-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-accent hover:text-primary border border-stone-300 text-stone-700 w-9 h-9 rounded-full shadow-md flex items-center justify-center transition z-20 focus:outline-none"
+                >
+                  <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <div
+                  id="variants-container"
+                  class="flex gap-4 overflow-x-auto pb-4 pt-1 no-scrollbar scroll-smooth snap-x"
+                >
+                  <!-- JS Populated Variant Thumbnail Cards -->
+                </div>
+
+                <!-- Right Scroll Arrow Button -->
+                <button
+                  type="button"
+                  onclick="scrollVariantGallery(1)"
+                  class="absolute -right-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-accent hover:text-primary border border-stone-300 text-stone-700 w-9 h-9 rounded-full shadow-md flex items-center justify-center transition z-20 focus:outline-none"
+                >
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 2: Selected Items Summary & Size Options -->
+            <div class="bg-white p-4 md:p-6 rounded-xl border border-stone-200">
+              <h3
+                class="font-serif font-bold text-lg text-primary mb-3 flex items-center gap-2"
+              >
+                <i class="fa-solid fa-list-check text-accent"></i> ২. নির্বাচিত
+                আইটেম ও সাইজ নির্ধারণ:
+              </h3>
+
+              <div id="selected-variants-summary" class="space-y-3">
+                <!-- JS populated summary list of selected items with size dropdowns -->
+              </div>
+            </div>
+
+            <!-- STEP 3: Customer Details Form -->
+            <div class="space-y-4">
+              <h3
+                class="font-serif font-bold text-lg text-primary border-b pb-2 flex items-center gap-2"
+              >
+                <i class="fa-solid fa-user text-accent"></i> ৩. আপনার ডেলিভারি
+                ইনফরমেশন লিখুন:
+              </h3>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <!-- Name Input -->
+                <div>
+                  <label
+                    class="block text-xs font-serif font-semibold text-stone-700 mb-1"
+                    >আপনার নাম *</label
+                  >
+                  <input
+                    type="text"
+                    id="custName"
+                    required
+                    placeholder="পূর্ণ নাম লিখুন"
+                    class="w-full bg-white border border-stone-300 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-accent"
+                  />
+                </div>
+
+                <!-- Phone Input -->
+                <div>
+                  <label
+                    class="block text-xs font-serif font-semibold text-stone-700 mb-1"
+                    >মোবাইল নম্বর *</label
+                  >
+                  <input
+                    type="tel"
+                    id="custPhone"
+                    required
+                    pattern="01[0-9]{9}"
+                    placeholder="01XXXXXXXXX"
+                    class="w-full bg-white border border-stone-300 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-accent"
+                  />
+                </div>
+
+                <!-- District Searchable/Dropdown Select -->
+                <div>
+                  <label
+                    class="block text-xs font-serif font-semibold text-stone-700 mb-1"
+                    >জেলা নির্বাচন করুন *</label
+                  >
+                  <select
+                    id="custDistrict"
+                    onchange="calculateTotal()"
+                    required
+                    class="w-full bg-white border border-stone-300 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-accent"
+                  >
+                    <option value="">জেলা নির্বাচন করুন</option>
+                    <option value="Dhaka">ঢাকা (Dhaka)</option>
+                    <option value="Chittagong">চট্টগ্রাম (Chittagong)</option>
+                    <option value="Rajshahi">রাজশাহী (Rajshahi)</option>
+                    <option value="Khulna">খুলনা (Khulna)</option>
+                    <option value="Barisal">বরিশাল (Barisal)</option>
+                    <option value="Sylhet">সিলেট (Sylhet)</option>
+                    <option value="Rangpur">রংপুর (Rangpur)</option>
+                    <option value="Mymensingh">ময়মনসিংহ (Mymensingh)</option>
+                    <option value="Comilla">কুমিল্লা (Comilla)</option>
+                    <option value="Gazipur">গাজীপুর (Gazipur)</option>
+                    <option value="Narayanganj">
+                      নারায়ণগঞ্জ (Narayanganj)
+                    </option>
+                    <option value="Jessore">যশোর (Jessore)</option>
+                    <option value="Other">
+                      অন্যান্য জেলা (Other District)
+                    </option>
+                  </select>
+                </div>
+
+                <!-- Full Address -->
+                <div>
+                  <label
+                    class="block text-xs font-serif font-semibold text-stone-700 mb-1"
+                    >সুনির্দিষ্ট ঠিকানা (বাসা/রোড/এলাকা) *</label
+                  >
+                  <input
+                    type="text"
+                    id="custAddress"
+                    required
+                    placeholder="বাসা নং, রোড নং, থানা/এলাকা"
+                    class="w-full bg-white border border-stone-300 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-accent"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- STEP 4: Live Price Calculation Order Summary -->
+            <div
+              class="p-4 md:p-6 bg-primary/5 rounded-xl border border-stone-200 space-y-3"
+            >
+              <h4
+                class="font-serif font-bold text-primary text-lg border-b border-stone-200 pb-2"
+              >
+                অর্ডার সামারি
+              </h4>
+
+              <div class="flex justify-between text-sm text-stone-600">
+                <span
+                  >পণ্যের সাবটোটাল (<span id="summary-total-qty">0</span>
+                  টি):</span
+                >
+                <span class="font-semibold text-primary" id="summary-subtotal"
+                  >৳ 0</span
+                >
+              </div>
+
+              <div class="flex justify-between text-sm text-stone-600">
+                <span>ডেলিভারি চার্জ:</span>
+                <span
+                  class="font-semibold text-accentDark"
+                  id="summary-delivery"
+                  >৳ 0</span
+                >
+              </div>
+
+              <div
+                class="flex justify-between text-lg font-extrabold text-primary border-t border-stone-200 pt-3"
+              >
+                <span>সর্বমোট প্রদেয় মূল্য:</span>
+                <span class="text-accentDark text-2xl" id="summary-grand-total"
+                  >৳ 0</span
+                >
+              </div>
+
+              <div class="text-xs text-stone-500 flex items-center gap-2 pt-1">
+                <i class="fa-solid fa-shield-halved text-accentDark"></i> ক্যাশ
+                অন ডেলিভারি - পণ্য বুঝে পেয়ে মূল্য পরিশোধ করুন।
+              </div>
+            </div>
+
+            <!-- Submit Button -->
+            <button
+              type="submit"
+              class="w-full bg-primary hover:bg-stone-800 text-accent font-bold text-lg py-4 rounded-2xl shadow-xl shadow-primary/20 transition-all hover:scale-[1.01] active:scale-[0.99] flex items-center justify-center gap-2 border border-accent/30"
+            >
+              <i class="fa-solid fa-circle-check"></i> অর্ডার কনফার্ম করুন
+              (৳<span id="btn-total-price">0</span>)
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- 7. Footer / Contact Info -->
+    <footer class="bg-primary text-white pt-16 pb-12 border-t border-stone-800">
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-10 mb-12"
+      >
+        <!-- Col 1: Brand Info -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div
+              class="w-10 h-10 rounded-full bg-accent text-primary flex items-center justify-center font-serif font-bold text-lg"
+            >
+              KG
+            </div>
+            <span
+              class="font-serif text-2xl font-bold tracking-tight text-white"
+              >Kaporghor</span
+            >
+          </div>
+          <p class="text-stone-400 text-sm leading-relaxed">
+            Wear your confidence proudly. Shop the latest drop of premium
+            women's clothing and Pakistani inspired collections across
+            Bangladesh.
+          </p>
+        </div>
+
+        <!-- Col 2: Contact Details -->
+        <div class="space-y-3">
+          <h4 class="font-serif font-bold text-lg text-accent">
+            যোগাযোগ ও ঠিকানা
+          </h4>
+          <p class="text-stone-300 text-sm flex items-start gap-2">
+            <i class="fa-solid fa-location-dot mt-1 text-accent"></i>
+            <span>Dhaka, Dhaka Division, Bangladesh - 1213</span>
+          </p>
+          <p class="text-stone-300 text-sm flex items-center gap-2">
+            <i class="fa-solid fa-phone text-accent"></i>
+            <span>+880 1879-142600</span>
+          </p>
+          <p class="text-stone-300 text-sm flex items-center gap-2">
+            <i class="fa-solid fa-envelope text-accent"></i>
+            <span>support@kaporghor.com</span>
+          </p>
+        </div>
+
+        <!-- Col 3: Social Links -->
+        <div class="space-y-3">
+          <h4 class="font-serif font-bold text-lg text-accent">
+            সোশ্যাল মিডিয়া
+          </h4>
+          <p class="text-stone-400 text-sm">
+            আমাদের পেজ লাইক ও ফলো করুন সর্বশেষ আপডেট পেতে।
+          </p>
+          <div class="flex items-center gap-3 pt-2">
+            <a
+              href="https://facebook.com/kapor.ghor123"
+              target="_blank"
+              class="w-10 h-10 rounded-full bg-stone-800 hover:bg-accent hover:text-primary transition flex items-center justify-center text-white text-lg"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a
+              href="#"
+              class="w-10 h-10 rounded-full bg-stone-800 hover:bg-accent hover:text-primary transition flex items-center justify-center text-white text-lg"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="#"
+              class="w-10 h-10 rounded-full bg-stone-800 hover:bg-accent hover:text-primary transition flex items-center justify-center text-white text-lg"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-stone-800 pt-6 text-center text-stone-500 text-xs"
+      >
+        &copy; 2026 Kaporghor (কাপড়ঘর). All rights reserved. Designed for
+        Premium E-Commerce.
+      </div>
+    </footer>
+
+    <!-- Saved Orders Modal -->
+    <div
+      id="savedOrdersModal"
+      class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden items-center justify-center p-4"
+    >
+      <div
+        class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative max-h-[85vh] flex flex-col"
+      >
+        <div class="flex items-center justify-between pb-4 border-b">
+          <h3 class="font-serif text-2xl font-bold text-primary">
+            সেভ করা অর্ডারসমূহ
+          </h3>
+          <button
+            onclick="closeSavedOrdersModal()"
+            class="w-8 h-8 rounded-full bg-stone-100 hover:bg-stone-200 text-stone-700 flex items-center justify-center font-bold"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <div
+          id="savedOrdersList"
+          class="py-4 overflow-y-auto space-y-4 flex-grow"
+        >
+          <!-- Dynamically populated orders -->
+        </div>
+
+        <div class="pt-4 border-t flex justify-between items-center">
+          <button
+            onclick="clearSavedOrders()"
+            class="text-red-600 hover:text-red-700 text-xs font-semibold px-3 py-1.5 rounded-lg border border-red-200 hover:bg-red-50 transition"
+          >
+            সকল অর্ডার মুছুন (Clear All)
+          </button>
+          <button
+            onclick="closeSavedOrdersModal()"
+            class="bg-primary text-white px-5 py-2 rounded-xl text-sm font-semibold"
+          >
+            বন্ধ করুন
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Order Success Confirmation Modal -->
+    <div
+      id="successModal"
+      class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden items-center justify-center p-4"
+    >
+      <div
+        class="bg-white rounded-3xl max-w-md w-full p-8 text-center shadow-2xl space-y-5 animate-bounce-in"
+      >
+        <div
+          class="w-20 h-20 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center text-4xl mx-auto"
+        >
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <h3 class="font-serif text-3xl font-bold text-primary">
+          অর্ডার সফল হয়েছে!
+        </h3>
+        <p class="text-stone-600 text-sm">
+          ধন্যবাদ! আপনার অর্ডারটি সফলভাবে গ্রহণ করা হয়েছে। আমাদের প্রতিনিধি খুব
+          শীঘ্রই আপনার সাথে যোগাযোগ করবেন।
+        </p>
+        <div
+          class="bg-bgLight p-4 rounded-2xl text-left text-xs space-y-1 text-stone-700 font-mono"
+          id="successDetails"
+        >
+          <!-- Order receipt details -->
+        </div>
+        <button
+          onclick="closeSuccessModal()"
+          class="w-full bg-primary hover:bg-stone-800 text-accent font-bold py-3.5 rounded-xl shadow-lg transition"
+        >
+          ঠিক আছে
+        </button>
+      </div>
+    </div>
+
+    <!-- JavaScript Logic (Updated to match Fashion Garden/ZOA) -->
+    <script>
+      // -------------------------------------------------------------
+      // DATA SET: Product Variants & CDN Images
+      // -------------------------------------------------------------
+      const PRODUCT_PRICE = 850; // Offer Price in BDT
+
+      // Helper to get high-quality image URL (remove thumbnail crop parameter)
+      function getHeroImageUrl(thumbUrl) {
+        return thumbUrl
+          .replace(/&ctp=s\d+x\d+/, "")
+          .replace(/\?ctp=s\d+x\d+/, "?");
+      }
+
+      const variants = [
+        {
+          id: 1,
+          name: "Variant 01 - Floral Print Edition",
+          img: "https://scontent.fdac34-2.fna.fbcdn.net/v/t39.99422-6/873603203_1111406695006500_2142599135145466223_n.png?stp=c0.119.1440.1440a_dst-jpg_tt6&cstp=mx1440x1440&ctp=s206x206&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeFOchE7yYJYVMpxPwtHdASDDGZIM-MyE3IMZkgz4zITcsS-kwhQJ4PKninbWk5XtYsHTZTC9rkFkMbWc7g4Aqkm&_nc_ohc=av1TlzniRU4Q7kNvwEbRDr6&_nc_oc=AdrYHvTyww2wdg_8xGXWoXffwsuwYhN69E8jeqIpgE809oGJ1uczTSVD7_S-tqbuAX44xEnKq3lbcyWDDBNi1tlp&_nc_zt=14&_nc_ht=scontent.fdac34-2.fna&_nc_gid=wEEJb3bUaJs_lR0PlQiTEA&_nc_ss=7b2a8&oh=00_AQSgcG05FJwGJUZD0NDPqCtbsFr333xKZiEcw4SRKocIww&oe=6AEA0C7D",
+        },
+        {
+          id: 2,
+          name: "Variant 02 - Elegant Pastels Edition",
+          img: "https://scontent.fdac34-1.fna.fbcdn.net/v/t39.99422-6/862401131_1915557472940250_7502209770571228079_n.png?stp=c0.119.1440.1440a_dst-jpg_tt6&cstp=mx1440x1440&ctp=s206x206&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeFyyVEYiHW4R2qIoZP_lxXANUQW-f2wpII1RBb5_bCkgmto0eKumEFlIzQdfYk9AutOXpukICs19pX8iGLx9XLw&_nc_ohc=Drx_7vIwfmYQ7kNvwGvsZKn&_nc_oc=AdrL5yVmNARAiI-J5c1gDADqDXk2aPSEA2WyQANLJq8xpFzCRK7BLFmR8dElCRMlX8U0MgNtgz4ph_AyB6Jr8QAU&_nc_zt=14&_nc_ht=scontent.fdac34-1.fna&_nc_gid=wEEJb3bUaJs_lR0PlQiTEA&_nc_ss=7b2a8&oh=00_AQR2CHpi4k-jhj8Gt2x9evtTovcFiIHztLMUyJGYyjcV8g&oe=6AEA1461",
+        },
+        {
+          id: 3,
+          name: "Variant 03 - Royal Ethnic Print",
+          img: "https://scontent.fdac34-1.fna.fbcdn.net/v/t39.99422-6/865097062_1433467298304594_4954974539177273257_n.png?stp=c0.83.1000.1000a_dst-jpg_tt6&cstp=mx1000x1000&ctp=s206x206&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeHu6Npyv80b1Xs4Vtl2mCHscQlOz2Onb0ZxCU7PY6dvRquvobjLZYwl234A2lfOw8cnl9AZyYj0fdHJ0KB5sWzI&_nc_ohc=YYIZikzNUqIQ7kNvwFBJCSI&_nc_oc=Adqf4M8YNtPWfp5zNo2Ekk2qZGf2_vznkw40zFJxON8wSwO58PF4B-6A4Atkue9TlRswJF-jFXL2qL357IMHYGd4&_nc_zt=14&_nc_ht=scontent.fdac34-1.fna&_nc_gid=wCvSEJJJIlwen6tCQyzkXw&_nc_ss=7b2a8&oh=00_AQRmnCjkceZrPk2opwUINQd4xgqCTtojXmAWlCIIsjZjMw&oe=6AEA0BF9",
+        },
+        {
+          id: 4,
+          name: "Variant 04 - Classic Black & Gold",
+          img: "https://scontent.fdac34-2.fna.fbcdn.net/v/t39.99422-6/874333371_2088315768467777_2905144494176769798_n.png?stp=c0.96.1170.1170a_dst-jpg_tt6&cstp=mx1170x1170&ctp=s206x206&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeGBDgv9V9tHFCo4gYiijRWnc3kcMmFScydzeRwyYVJzJ2qGvd6xqyAMlGCWnTiM38I8qCQiZH0QNWvnlp4WlUoq&_nc_ohc=gVt0gKMvvhgQ7kNvwGBSCW3&_nc_oc=AdoPFHTuZqASrYEwCnhoATojZhfxqUW8tAf1P0PJouBdsln5zitJFVy38Gt_mMPYpVvjR2i44aTc_djHp15-rwyo&_nc_zt=14&_nc_ht=scontent.fdac34-2.fna&_nc_gid=-UxdpeLmLMchVERMN-lKAA&_nc_ss=7b2a8&oh=00_AQT824GLeJujCHyp6XBUEgCos2JI3U34RahnNdqcCP3QYw&oe=6AEA0C42",
+        },
+        {
+          id: 5,
+          name: "Variant 05 - Designer Collection",
+          img: "https://scontent.fdac34-2.fna.fbcdn.net/v/t39.99422-6/864003346_2672467413176072_3897485513929989906_n.png?stp=c0.88.1080.1080a_dst-jpg_tt6&cstp=mx1080x1080&ctp=s206x206&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeGzKN8ow3Re6lzCND8TIvrDReIsmvTeJ1BF4iya9N4nUDmm7Wts1o_K1F68IBz4eldyGbeIZrol8t5aGZNdE7f1&_nc_ohc=f1BJSViu6-8Q7kNvwGtBoGF&_nc_oc=Adpl80vKcX11ZJ9KKRln8XdwxtpVb4HfQL-pHXzwXday5alX1AOceoBWoJIV4wpy6-zaGfL7HGHSYVJ4-H6ccSda&_nc_zt=14&_nc_ht=scontent.fdac34-2.fna&_nc_gid=wCvSEJJJIlwen6tCQyzkXw&_nc_ss=7b2a8&oh=00_AQQpsOXhpTDVe_UezHXN_SXsmR_S9tekeBxiuzUb7oxlmg&oe=6AEA1987",
+        },
+      ];
+
+      // High-quality images for hero carousel (without thumbnail crop)
+      const heroImages = variants.map((v) => getHeroImageUrl(v.img));
+
+      const sizes = ["M", "L", "XL", "XXL"];
+
+      // State variables
+      let heroIndex = 0;
+      let heroInterval = null;
+
+      // Selected Items state object: { variantId: { selected: true/false, quantity: 1, size: "M" } }
+      let selectedState = {};
+
+      // Initialize state
+      variants.forEach((v) => {
+        selectedState[v.id] = {
+          selected: v.id === 1, // default select first variant
+          quantity: 1,
+          size: "M", // default size
+        };
+      });
+
+      // -------------------------------------------------------------
+      // HERO CAROUSEL LOGIC
+      // -------------------------------------------------------------
+      function initHeroCarousel() {
+        const imgEl = document.getElementById("hero-carousel-img");
+        const dotsEl = document.getElementById("hero-dots");
+
+        // Render Dots
+        dotsEl.innerHTML = variants
+          .map(
+            (_, i) => `
+          <button onclick="goToHeroSlide(${i})" class="w-2 h-2 rounded-full transition-all ${i === 0 ? "bg-white w-5" : "bg-white/50"}"></button>
+        `,
+          )
+          .join("");
+
+        updateHeroSlide();
+
+        // Auto slide every 5 seconds
+        startHeroTimer();
+      }
+
+      function updateHeroSlide() {
+        const imgEl = document.getElementById("hero-carousel-img");
+        const dots = document.getElementById("hero-dots").children;
+
+        imgEl.style.opacity = "0.3";
+        setTimeout(() => {
+          const newSrc = heroImages[heroIndex];
+          imgEl.onerror = function () {
+            this.src = "logo.jpg";
+            this.onerror = null;
+          };
+          imgEl.src = newSrc;
+          imgEl.style.opacity = "1";
+        }, 150);
+
+        // Update dot indicators
+        for (let i = 0; i < dots.length; i++) {
+          if (i === heroIndex) {
+            dots[i].className = "w-5 h-2 rounded-full bg-white transition-all";
+          } else {
+            dots[i].className =
+              "w-2 h-2 rounded-full bg-white/50 transition-all";
+          }
+        }
+      }
+
+      function nextHeroSlide() {
+        heroIndex = (heroIndex + 1) % variants.length;
+        updateHeroSlide();
+        resetHeroTimer();
+      }
+
+      function prevHeroSlide() {
+        heroIndex = (heroIndex - 1 + variants.length) % variants.length;
+        updateHeroSlide();
+        resetHeroTimer();
+      }
+
+      function goToHeroSlide(index) {
+        heroIndex = index;
+        updateHeroSlide();
+        resetHeroTimer();
+      }
+
+      function startHeroTimer() {
+        heroInterval = setInterval(() => {
+          heroIndex = (heroIndex + 1) % variants.length;
+          updateHeroSlide();
+        }, 5000);
+      }
+
+      function resetHeroTimer() {
+        clearInterval(heroInterval);
+        startHeroTimer();
+      }
+
+      // -------------------------------------------------------------
+      // CHECKOUT FORM & MULTI-VARIANT SELECTOR LOGIC
+      // -------------------------------------------------------------
+      function renderVariantSelector() {
+        const container = document.getElementById("variants-container");
+
+        container.innerHTML = variants
+          .map((v) => {
+            const state = selectedState[v.id] || {
+              selected: false,
+              quantity: 1,
+            };
+            const isSelected = state.selected;
+
+            return `
+    <div class="flex-none w-36 sm:w-44 bg-white rounded-xl border-2 transition-all p-2.5 relative shadow-sm hover:shadow-md flex flex-col justify-between ${isSelected ? "border-accent bg-yellow-50/30" : "border-stone-200"}">
+      
+      <!-- Image & Checkbox Area -->
+      <div class="relative w-full rounded-lg overflow-hidden mb-2 bg-stone-100 cursor-pointer" onclick="toggleVariantSelection(${v.id})">
+        <img src="${v.img}" alt="${v.name}" class="w-full h-44 object-cover">
+        
+        <!-- Checkbox / Selection Badge -->
+        <div class="absolute top-2 right-2 flex items-center justify-center w-7 h-7 rounded-full border-2 border-accent ${isSelected ? "bg-accent text-white scale-105 shadow-md" : "bg-white/80 text-accent"} transition-all">
+          <i class="fa-solid ${isSelected ? "fa-check" : "fa-plus"} text-xs"></i>
+        </div>
+      </div>
+
+      <!-- Product Title/Info -->
+      <div class="mb-2 text-center" onclick="toggleVariantSelection(${v.id})">
+        <p class="text-xs font-semibold text-stone-800 truncate">${v.name}</p>
+        <p class="text-xs font-bold text-accent mt-0.5">৳${PRODUCT_PRICE}</p>
+      </div>
+
+      <!-- Quantity Controller at the Bottom -->
+      <div class="pt-2 border-t border-stone-200 flex items-center justify-between">
+        <span class="text-[11px] text-stone-500 font-medium">পরিমাণ:</span>
+        <div class="flex items-center border border-stone-300 rounded-md bg-white overflow-hidden shadow-xs">
+          <button type="button" onclick="changeQty(${v.id}, -1)" class="px-2 py-1 text-xs text-stone-600 hover:bg-stone-100 active:bg-stone-200 transition-colors">-</button>
+          <span class="px-2.5 py-1 text-xs font-bold text-stone-800 min-w-[20px] text-center">${state.quantity}</span>
+          <button type="button" onclick="changeQty(${v.id}, +1)" class="px-2 py-1 text-xs text-stone-600 hover:bg-stone-100 active:bg-stone-200 transition-colors">+</button>
+        </div>
+      </div>
+
+    </div>
+  `;
+          })
+          .join("");
+        renderSelectedSummary();
+        calculateTotal();
+      }
+
+      function toggleVariantSelection(id) {
+        selectedState[id].selected = !selectedState[id].selected;
+        renderVariantSelector();
+      }
+
+      function changeQty(id, delta) {
+        const newQty = selectedState[id].quantity + delta;
+        if (newQty >= 1) {
+          selectedState[id].quantity = newQty;
+          // Only change quantity, don't auto-select variant
+          renderVariantSelector();
+          calculateTotal();
+        }
+      }
+
+      function updateSize(id, sizeVal) {
+        selectedState[id].size = sizeVal;
+      }
+
+      // --- Variant Gallery Scroll Functions ---
+      function scrollVariants(direction) {
+        const container = document.getElementById("variants-container");
+        const scrollAmount = 300; // pixels to scroll
+        if (direction === -1) {
+          container.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+        } else {
+          container.scrollBy({ left: scrollAmount, behavior: "smooth" });
+        }
+      }
+
+      function scrollVariantGallery(direction) {
+        const container = document.getElementById("variants-container");
+        const scrollAmount = 300; // pixels to scroll
+        if (direction === -1) {
+          container.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+        } else {
+          container.scrollBy({ left: scrollAmount, behavior: "smooth" });
+        }
+      }
+
+// Update scroll indicator text
+function updateVariantScrollIndicator() {
+  // No-op: scroll indicator element not present in DOM
+}
+
+      // Run on initial load and after rendering
+      document.addEventListener(
+        "DOMContentLoaded",
+        updateVariantScrollIndicator,
+      );
+      document.addEventListener(
+        "variant:rendered",
+        updateVariantScrollIndicator,
+      );
+
+      function renderSelectedSummary() {
+        const summaryContainer = document.getElementById(
+          "selected-variants-summary",
+        );
+        const selectedList = variants.filter(
+          (v) => selectedState[v.id].selected,
+        );
+
+        if (selectedList.length === 0) {
+          summaryContainer.innerHTML = `
+            <div class="p-4 text-center text-red-500 font-semibold text-xs bg-red-50 rounded-lg">
+              ⚠️ দয়া করে অন্তত একটি ভ্যারিয়েন্ট/ডিজাইন নির্বাচন করুন!
+            </div>
+          `;
+          return;
+        }
+
+        summaryContainer.innerHTML = selectedList
+          .map((v) => {
+            const state = selectedState[v.id];
+            return `
+            <div class="flex items-center justify-between gap-3 bg-white p-2.5 rounded-lg border border-stone-200">
+              <div class="flex items-center gap-3">
+                <img src="${v.img}" alt="${v.name}" class="w-14 h-14 object-contain rounded-md border border-stone-200 bg-stone-50">
+                <div>
+                  <h4 class="font-bold text-xs text-stone-800">${v.name}</h4>
+                  <span class="text-xs text-accentDark font-bold">৳${PRODUCT_PRICE} × ${state.quantity}</span>
+                </div>
+              </div>
+
+              <!-- Size Selector -->
+              <div class="flex items-center gap-2">
+                <label class="text-xs font-medium text-stone-600">সাইজ:</label>
+                <select onchange="updateSize(${v.id}, this.value)" class="text-xs border border-stone-300 rounded px-2 py-1 bg-white font-bold text-accentDark focus:outline-none">
+                  ${sizes
+                    .map(
+                      (s) => `
+                    <option value="${s}" ${state.size === s ? "selected" : ""}>${s}</option>
+                  `,
+                    )
+                    .join("")}
+                </select>
+              </div>
+            </div>
+          `;
+          })
+          .join("");
+      }
+
+      function calculateTotal() {
+        const selectedList = variants.filter(
+          (v) => selectedState[v.id].selected,
+        );
+
+        // Total Quantity & Subtotal
+        let totalQty = 0;
+        let subtotal = 0;
+
+        selectedList.forEach((v) => {
+          const qty = selectedState[v.id].quantity;
+          totalQty += qty;
+          subtotal += PRODUCT_PRICE * qty;
+        });
+
+        // Delivery Charge Logic based on District
+        const districtSelect = document.getElementById("custDistrict");
+        const district = districtSelect.value;
+        let deliveryCharge = 0;
+
+        if (selectedList.length > 0) {
+          if (district === "Dhaka") {
+            deliveryCharge = 80; // Inside Dhaka
+          } else if (district !== "") {
+            deliveryCharge = 150; // Outside Dhaka
+          }
+        }
+
+        const grandTotal = subtotal + deliveryCharge;
+
+        // DOM Updates
+        document.getElementById("summary-total-qty").innerText = totalQty;
+        document.getElementById("summary-subtotal").innerText =
+          "৳ " + subtotal.toLocaleString("bn-BD");
+        document.getElementById("summary-delivery").innerText =
+          deliveryCharge > 0 ? "৳ " + deliveryCharge : "জেলা নির্বাচন করুন";
+        document.getElementById("summary-grand-total").innerText =
+          "৳ " + grandTotal.toLocaleString("bn-BD");
+        document.getElementById("btn-total-price").innerText =
+          grandTotal.toLocaleString("bn-BD");
+      }
+
+      // -------------------------------------------------------------
+      // ORDER SUBMISSION & LOCALSTORAGE PERSISTENCE
+      // -------------------------------------------------------------
+      function submitOrder(e) {
+        e.preventDefault();
+
+        const selectedList = variants.filter(
+          (v) => selectedState[v.id].selected,
+        );
+        if (selectedList.length === 0) {
+          alert("অনুগ্রহ করে অন্তত একটি পোশাক সিলেক্ট করুন!");
+          return;
+        }
+
+        const name = document.getElementById("custName").value;
+        const phone = document.getElementById("custPhone").value;
+        const district = document.getElementById("custDistrict").value;
+        const address = document.getElementById("custAddress").value;
+
+        const itemsOrdered = selectedList.map((v) => ({
+          id: v.id,
+          name: v.name,
+          img: v.img,
+          quantity: selectedState[v.id].quantity,
+          size: selectedState[v.id].size,
+          price: PRODUCT_PRICE,
+        }));
+
+        let subtotal = 0;
+        itemsOrdered.forEach((i) => (subtotal += i.price * i.quantity));
+        const deliveryCharge = district === "Dhaka" ? 80 : 150;
+        const grandTotal = subtotal + deliveryCharge;
+
+        const order = {
+          orderId: "KG-" + Math.floor(100000 + Math.random() * 900000),
+          date: new Date().toLocaleDateString("bn-BD"),
+          customer: { name, phone, district, address },
+          items: itemsOrdered,
+          subtotal,
+          deliveryCharge,
+          grandTotal,
+        };
+
+        // Save to LocalStorage
+        let existingOrders = JSON.parse(
+          localStorage.getItem("kaporghor_orders") || "[]",
+        );
+        existingOrders.push(order);
+        localStorage.setItem(
+          "kaporghor_orders",
+          JSON.stringify(existingOrders),
+        );
+
+        updateSavedOrdersBadge();
+
+        // Success feedback
+        alert(
+          `🎉 আপনার অর্ডারটি সফলভাবে গৃহিত হয়েছে!\nঅর্ডার নম্বর: ${order.orderId}\nসর্বমোট মূল্য: ৳${order.grandTotal}`,
+        );
+
+        // Reset Form State
+        document.getElementById("orderForm").reset();
+        // Reset selected items
+        variants.forEach((v) => {
+          selectedState[v.id] = {
+            selected: v.id === 1,
+            quantity: 1,
+            size: "M",
+          };
+        });
+        renderVariantSelector();
+      }
+
+function clearSavedOrders() {
+  localStorage.removeItem("kaporghor_orders");
+  renderModalOrders();
+  updateSavedOrdersBadge();
+}
+
+function openSavedOrdersModal() {
+  const modal = document.getElementById("savedOrdersModal");
+  modal.classList.remove("hidden");
+  modal.classList.add("flex");
+  renderModalOrders();
+}
+
+function closeSavedOrdersModal() {
+  const modal = document.getElementById("savedOrdersModal");
+  modal.classList.add("hidden");
+  modal.classList.remove("flex");
+}
+
+function closeSuccessModal() {
+  const modal = document.getElementById("successModal");
+  modal.classList.add("hidden");
+  modal.classList.remove("flex");
+}
+
+      function renderModalOrders() {
+        const container = document.getElementById("savedOrdersList");
+        const orders = JSON.parse(
+          localStorage.getItem("kaporghor_orders") || "[]",
+        );
+
+        if (orders.length === 0) {
+          container.innerHTML = `
+            <div class="text-center py-8 text-stone-500">
+              <i class="fa-solid fa-box-open text-4xl text-stone-300 mb-2"></i>
+              <p>এখনো কোনো অর্ডার সেভ করা হয়নি।</p>
+            </div>
+          `;
+          return;
+        }
+
+        container.innerHTML = orders
+          .map(
+            (order) => `
+          <div class="p-4 bg-stone-50 rounded-xl border border-stone-200 space-y-3">
+            <div class="flex justify-between items-center border-b pb-2">
+              <div>
+                <span class="font-bold text-accentDark">${order.orderId}</span>
+                <span class="text-[10px] text-stone-400 block">${order.date}</span>
+              </div>
+              <span class="bg-emerald-100 text-emerald-800 text-[10px] px-2 py-0.5 rounded font-bold">অর্ডার কনফার্মড</span>
+            </div>
+
+            <div class="space-y-2">
+              ${order.items
+                .map(
+                  (item) => `
+                <div class="flex items-center gap-2">
+                  <img src="${item.img}" class="w-8 h-8 rounded object-contain border">
+                  <div class="flex-grow">
+                    <span class="font-semibold block text-stone-800">${item.name}</span>
+                    <span class="text-[10px] text-stone-500">সাইজ: ${item.size} | পরিমণ: ${item.quantity}টি</span>
+                  </div>
+                  <span class="font-bold text-stone-700">৳${item.price * item.quantity}</span>
+                </div>
+              `,
+                )
+                .join("")}
+            </div>
+
+            <div class="pt-2 border-t border-stone-200 text-right font-bold text-stone-800 flex justify-between">
+              <span class="text-stone-500 font-normal">কাস্টমার: ${order.customer.name}</span>
+              <span>সর্বমোট: ৳${order.grandTotal}</span>
+            </div>
+          </div>
+        `,
+          )
+          .reverse()
+          .join("");
+      }
+
+      // -------------------------------------------------------------
+      // INITIALIZATION ON PAGE LOAD
+      // -------------------------------------------------------------
+      window.onload = function () {
+        initHeroCarousel();
+        renderVariantSelector();
+        updateSavedOrdersBadge();
+      };
+    </script>
+  </body>
+</html>
